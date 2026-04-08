@@ -1,0 +1,560 @@
+{
+  "business": {
+    "name": "Paul D Plumber",
+    "phone": "+15049127600",
+    "category": "plumber",
+    "city": "New Orleans",
+    "state": "LA"
+  },
+  "design": {
+    "preset": {
+      "id": "roofing-red-charge",
+      "categoryGroup": "roofing",
+      "name": "Red Charge",
+      "recipeFile": "roofing/red-charge.astro",
+      "colors": {
+        "primary": "#1F3A56",
+        "primaryDark": "#152B42",
+        "primaryLight": "#D0DCE8",
+        "secondary": "#2B4C6F",
+        "accent": "#DC143C",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#1F3A56",
+        "surface": "#F5F7FA",
+        "text": "#111827",
+        "textLight": "#6B7280",
+        "textOnDark": "#FFFFFF",
+        "border": "#E5E7EB"
+      },
+      "typography": {
+        "headingFont": "DM Sans",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "8px",
+        "buttonRadius": "8px",
+        "cardRadius": "12px",
+        "shadowStyle": "soft"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "roofing/red-charge"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "NOLA's Trusted Plumbing Pros",
+      "heroSubline": "Fast, reliable plumbing services across New Orleans. Solving your toughest plumbing problems, guaranteed.",
+      "aboutTitle": "Decades of Plumbing Expertise in the Big Easy",
+      "aboutText": [
+        "Paul D Plumber was founded over a decade ago with a simple mission: to provide honest, dependable plumbing services to the residents and businesses of New Orleans. We've seen it all, from historic Garden District mansions to modern condos downtown.",
+        "We believe in doing the job right the first time. Our experienced plumbers use quality materials and proven techniques to ensure lasting solutions. We treat every home as if it were our own, respecting your property and your time.",
+        "We're deeply rooted in the New Orleans community. We support local schools and charities, and we're committed to providing fair and affordable plumbing services to our neighbors. When you choose Paul D Plumber, you're supporting a local business that cares."
+      ],
+      "valueProps": [
+        {
+          "title": "24/7 Emergency Service",
+          "description": "Plumbing emergencies don't wait, and neither do we. We're available around the clock to handle your urgent plumbing needs."
+        },
+        {
+          "title": "Upfront Pricing",
+          "description": "No surprises, no hidden fees. We provide clear, upfront pricing before any work begins, so you know exactly what to expect."
+        },
+        {
+          "title": "Licensed & Insured",
+          "description": "Rest easy knowing that our plumbers are fully licensed, insured, and highly trained. We adhere to the highest standards of safety and professionalism."
+        },
+        {
+          "title": "Guaranteed Work",
+          "description": "We stand behind our work. If you're not completely satisfied, we'll make it right."
+        }
+      ],
+      "ctaHeadline": "Solve Your Plumbing Problems Today",
+      "ctaSubline": "Contact Paul D Plumber for fast, reliable service in New Orleans. Get a free quote now!"
+    },
+    "services": [
+      {
+        "slug": "drain-cleaning",
+        "name": "Drain Cleaning",
+        "shortDescription": "Fast and effective drain cleaning to keep your plumbing flowing smoothly.",
+        "description": "Clogged drains are a common nuisance in New Orleans, especially with our older housing stock and tendency for heavy rainfall. Paul D Plumber offers comprehensive drain cleaning services to clear any blockage, big or small. We use a variety of techniques, including snaking, hydro jetting, and video inspection, to diagnose and resolve drain problems effectively. \n\nWhether it's a slow-draining sink, a clogged toilet, or a backed-up sewer line, our experienced plumbers have the tools and expertise to get your drains flowing freely again. We'll also identify the underlying cause of the clog to prevent future problems, whether it's grease buildup, tree roots, or pipe damage.\n\n Don't let a clogged drain disrupt your day. Call Paul D Plumber for fast, reliable drain cleaning services in New Orleans.",
+        "process": [
+          "Inspect the drain to identify the cause and location of the clog.",
+          "Use appropriate tools, such as a snake or hydro jet, to break up and remove the blockage.",
+          "Flush the drain to ensure it's flowing freely.",
+          "Provide recommendations for preventing future clogs."
+        ],
+        "benefits": [
+          "Eliminate slow-draining sinks and tubs",
+          "Prevent backups and overflows",
+          "Improve water flow",
+          "Protect your pipes from damage"
+        ],
+        "faq": [
+          {
+            "question": "How often should I have my drains cleaned?",
+            "answer": "It depends on your usage and the age of your plumbing. We recommend having your drains cleaned at least once a year, or more frequently if you experience frequent clogs."
+          },
+          {
+            "question": "What is hydro jetting?",
+            "answer": "Hydro jetting uses high-pressure water to blast away stubborn blockages and buildup from the inside of your pipes. It's a highly effective method for clearing grease, roots, and other debris."
+          },
+          {
+            "question": "Can I use chemical drain cleaners?",
+            "answer": "We strongly advise against using chemical drain cleaners. They can damage your pipes and pose a risk to your health and the environment. It's always best to call a professional plumber for drain cleaning."
+          }
+        ]
+      },
+      {
+        "slug": "water-heater-repair",
+        "name": "Water Heater Repair & Installation",
+        "shortDescription": "Expert water heater services to keep your hot water flowing.",
+        "description": "A malfunctioning water heater can be a major inconvenience, especially during New Orleans' mild winters. Paul D Plumber provides comprehensive water heater repair and installation services for all types of water heaters, including gas, electric, and tankless models. \n\nOur experienced plumbers can diagnose and repair any water heater problem, from leaks and strange noises to inconsistent heating and complete breakdowns. We also offer expert installation services for new water heaters, ensuring proper sizing and installation for optimal performance and efficiency. We understand the unique challenges of water heaters in New Orleans homes, including the risk of corrosion from our humid climate and the need for proper venting in older buildings. \n\nWhether you need a simple repair or a complete water heater replacement, Paul D Plumber is here to help. We'll provide honest advice and reliable service to keep your hot water flowing.",
+        "process": [
+          "Diagnose the problem with your water heater.",
+          "Provide a clear explanation of the repair options and costs.",
+          "Perform the necessary repairs or install a new water heater.",
+          "Test the water heater to ensure it's working properly."
+        ],
+        "benefits": [
+          "Restore hot water quickly",
+          "Improve energy efficiency",
+          "Extend the lifespan of your water heater",
+          "Prevent water damage"
+        ],
+        "faq": [
+          {
+            "question": "How long does a water heater typically last?",
+            "answer": "The lifespan of a water heater depends on the type, quality, and maintenance. Most water heaters last between 8 and 12 years."
+          },
+          {
+            "question": "How do I know if my water heater needs to be replaced?",
+            "answer": "Signs that your water heater needs to be replaced include leaks, rust, strange noises, inconsistent heating, and age."
+          },
+          {
+            "question": "What are the benefits of a tankless water heater?",
+            "answer": "Tankless water heaters provide on-demand hot water, saving energy and space. They also have a longer lifespan than traditional tank water heaters."
+          }
+        ]
+      },
+      {
+        "slug": "leak-detection-repair",
+        "name": "Leak Detection & Repair",
+        "shortDescription": "Find and fix leaks fast to prevent water damage and save money.",
+        "description": "Leaks can cause significant damage to your New Orleans home, especially with our humid climate and susceptibility to mold growth. Paul D Plumber offers advanced leak detection and repair services to identify and fix leaks quickly and effectively. \n\nWe use specialized equipment, such as acoustic sensors and thermal imaging, to locate hidden leaks behind walls, under floors, and in underground pipes. Our experienced plumbers can then repair the leak with minimal disruption to your property. We understand the importance of addressing leaks promptly to prevent water damage, mold growth, and costly repairs. \n\nWhether it's a dripping faucet, a running toilet, or a hidden pipe leak, Paul D Plumber is here to help. We'll find the leak, fix it right, and help you save money on your water bill.",
+        "process": [
+          "Use advanced leak detection equipment to locate the source of the leak.",
+          "Assess the extent of the damage.",
+          "Repair the leak using appropriate techniques and materials.",
+          "Test the repair to ensure it's watertight."
+        ],
+        "benefits": [
+          "Prevent water damage",
+          "Reduce your water bill",
+          "Prevent mold growth",
+          "Protect your home's structure"
+        ],
+        "faq": [
+          {
+            "question": "How can I tell if I have a leak?",
+            "answer": "Signs of a leak include water stains, mold growth, damp spots, a sudden increase in your water bill, and the sound of running water when no fixtures are in use."
+          },
+          {
+            "question": "What is the best way to find a hidden leak?",
+            "answer": "The best way to find a hidden leak is to call a professional plumber with specialized leak detection equipment."
+          },
+          {
+            "question": "How much does it cost to repair a leak?",
+            "answer": "The cost of leak repair depends on the location and severity of the leak. We provide upfront pricing before any work begins."
+          }
+        ]
+      },
+      {
+        "slug": "sewer-line-services",
+        "name": "Sewer Line Services",
+        "shortDescription": "Expert sewer line repair and replacement to keep your system flowing.",
+        "description": "Sewer line problems can be a messy and expensive issue for New Orleans homeowners, especially given the city's aging infrastructure and susceptibility to flooding. Paul D Plumber offers comprehensive sewer line services, including repair, replacement, and cleaning. \n\nWe use advanced techniques, such as trenchless sewer repair, to minimize disruption to your property. Our experienced plumbers can diagnose and resolve any sewer line problem, from clogs and tree roots to cracks and collapses. We understand the importance of a properly functioning sewer line for the health and safety of your home. \n\nWhether you need a simple sewer line cleaning or a complete sewer line replacement, Paul D Plumber is here to help. We'll provide honest advice and reliable service to keep your sewer line flowing smoothly.",
+        "process": [
+          "Inspect the sewer line using video inspection equipment.",
+          "Diagnose the problem and determine the best course of action.",
+          "Repair or replace the sewer line using appropriate techniques.",
+          "Test the sewer line to ensure it's working properly."
+        ],
+        "benefits": [
+          "Prevent sewer backups",
+          "Protect your home from sewage contamination",
+          "Improve drainage",
+          "Ensure compliance with local regulations"
+        ],
+        "faq": [
+          {
+            "question": "What are the signs of a sewer line problem?",
+            "answer": "Signs of a sewer line problem include sewage backups, slow drains, gurgling sounds in your plumbing, and foul odors."
+          },
+          {
+            "question": "What is trenchless sewer repair?",
+            "answer": "Trenchless sewer repair is a method of repairing or replacing a sewer line without digging a large trench. It's less disruptive and more cost-effective than traditional sewer repair methods."
+          },
+          {
+            "question": "How much does it cost to repair or replace a sewer line?",
+            "answer": "The cost of sewer line repair or replacement depends on the extent of the damage and the repair method used. We provide upfront pricing before any work begins."
+          }
+        ]
+      },
+      {
+        "slug": "fixture-installation",
+        "name": "Fixture Installation",
+        "shortDescription": "Professional installation of faucets, sinks, toilets, and more.",
+        "description": "Upgrading your fixtures can enhance the look and functionality of your New Orleans home. Paul D Plumber offers professional fixture installation services for faucets, sinks, toilets, showers, and more. \n\nOur experienced plumbers can install any type of fixture, ensuring proper installation and leak-free performance. We'll also handle any necessary plumbing modifications to accommodate your new fixtures. We understand the importance of proper fixture installation for water conservation and aesthetic appeal. \n\nWhether you're renovating your bathroom or simply replacing a leaky faucet, Paul D Plumber is here to help. We'll provide expert installation services to ensure your new fixtures look and perform their best.",
+        "process": [
+          "Remove the old fixture.",
+          "Prepare the plumbing connections.",
+          "Install the new fixture according to manufacturer's instructions.",
+          "Test the fixture to ensure it's working properly."
+        ],
+        "benefits": [
+          "Enhance the look of your home",
+          "Improve water efficiency",
+          "Prevent leaks",
+          "Increase the value of your home"
+        ],
+        "faq": [
+          {
+            "question": "How long does it take to install a new toilet?",
+            "answer": "Installing a new toilet typically takes 1-2 hours."
+          },
+          {
+            "question": "Do I need to shut off the water before installing a new faucet?",
+            "answer": "Yes, you need to shut off the water supply to the faucet before removing the old faucet and installing the new one."
+          },
+          {
+            "question": "Can you install fixtures that I purchased myself?",
+            "answer": "Yes, we can install fixtures that you purchased yourself or provide you with a selection of high-quality fixtures to choose from."
+          }
+        ]
+      },
+      {
+        "slug": "gas-line-services",
+        "name": "Gas Line Services",
+        "shortDescription": "Safe and reliable gas line installation, repair, and inspection.",
+        "description": "Gas lines require specialized expertise to ensure safety and compliance with regulations. Paul D Plumber offers comprehensive gas line services, including installation, repair, and inspection. \n\nOur licensed and experienced plumbers can handle any gas line project, from installing a new gas line for a stove or fireplace to repairing a gas leak. We adhere to the highest safety standards and use state-of-the-art equipment to ensure leak-free performance. We understand the importance of gas line safety for the well-being of your home and family. \n\nWhether you need a new gas line installed or suspect a gas leak, Paul D Plumber is here to help. We'll provide prompt and reliable service to ensure your gas lines are safe and functioning properly.",
+        "process": [
+          "Inspect the gas line for leaks or damage.",
+          "Repair or replace the gas line using appropriate techniques and materials.",
+          "Test the gas line to ensure it's leak-free.",
+          "Ensure compliance with local regulations."
+        ],
+        "benefits": [
+          "Ensure gas line safety",
+          "Prevent gas leaks",
+          "Improve gas appliance performance",
+          "Comply with local regulations"
+        ],
+        "faq": [
+          {
+            "question": "How can I tell if I have a gas leak?",
+            "answer": "Signs of a gas leak include a rotten egg smell, a hissing sound near gas lines, and dead vegetation near gas lines."
+          },
+          {
+            "question": "What should I do if I suspect a gas leak?",
+            "answer": "If you suspect a gas leak, evacuate the building immediately and call the gas company or 911 from a safe location."
+          },
+          {
+            "question": "How often should I have my gas lines inspected?",
+            "answer": "We recommend having your gas lines inspected at least once a year."
+          }
+        ]
+      }
+    ],
+    "serviceAreas": [
+      {
+        "city": "New Orleans",
+        "slug": "new-orleans-la",
+        "state": "LA",
+        "content": "Paul D Plumber is proud to provide comprehensive plumbing services to the residents and businesses of New Orleans, Louisiana. From the historic French Quarter to the vibrant Garden District, we understand the unique plumbing needs of this city's diverse architecture. Our team is equipped to handle everything from routine maintenance and repairs to complex installations and emergency services.\n\nWe're committed to providing prompt, reliable, and affordable plumbing solutions throughout New Orleans. Whether you're dealing with a leaky faucet, a clogged drain, or a major plumbing emergency, you can count on Paul D Plumber to deliver exceptional service and lasting results. We are your trusted New Orleans plumbing experts.",
+        "localContext": "New Orleans is known for its historic architecture, unique culture, and frequent heavy rainfall, which can sometimes lead to plumbing issues in older buildings.",
+        "nearbyAreas": [
+          "Metairie",
+          "Kenner",
+          "Gretna"
+        ]
+      },
+      {
+        "city": "Metairie",
+        "slug": "metairie-la",
+        "state": "LA",
+        "content": "Paul D Plumber extends its expert plumbing services to the community of Metairie, Louisiana. As a thriving suburb of New Orleans, Metairie presents a blend of residential and commercial plumbing needs. We are well-versed in addressing the specific requirements of homes and businesses in this area.\n\nOur services in Metairie include everything from drain cleaning and water heater repair to sewer line inspection and replacement. We understand the importance of having a reliable plumbing system, and we are dedicated to providing prompt, efficient, and affordable solutions to keep your plumbing running smoothly. We offer 24/7 emergency service for those unexpected plumbing disasters.",
+        "localContext": "Metairie is a large suburban community known for its family-friendly environment and mix of residential and commercial properties.",
+        "nearbyAreas": [
+          "Kenner",
+          "New Orleans",
+          "River Ridge"
+        ]
+      },
+      {
+        "city": "Kenner",
+        "slug": "kenner-la",
+        "state": "LA",
+        "content": "Paul D Plumber is dedicated to serving the plumbing needs of Kenner, Louisiana. Located just west of New Orleans, Kenner is a bustling city with a diverse range of homes and businesses. We are equipped to handle any plumbing challenge, big or small.\n\nOur services in Kenner include leak detection, pipe repair, water heater installation, and more. We're committed to providing top-quality workmanship and exceptional customer service. We understand the importance of having a reliable plumber you can trust, and we strive to exceed your expectations with every service call.",
+        "localContext": "Kenner is a major transportation hub with Louis Armstrong New Orleans International Airport, and has a mix of residential and industrial areas.",
+        "nearbyAreas": [
+          "Metairie",
+          "New Orleans",
+          "River Ridge"
+        ]
+      },
+      {
+        "city": "Gretna",
+        "slug": "gretna-la",
+        "state": "LA",
+        "content": "Paul D Plumber is proud to offer plumbing services to the residents and businesses of Gretna, Louisiana. Situated on the west bank of the Mississippi River, Gretna is a historic city with a unique character and a diverse range of plumbing needs. We are experienced in addressing the specific challenges of older homes and modern commercial buildings in this area.\n\nOur services in Gretna include drain cleaning, sewer line repair, water heater maintenance, and more. We understand the importance of having a reliable plumbing system, and we are committed to providing prompt, efficient, and affordable solutions to keep your plumbing running smoothly. We are available 24/7 for emergency plumbing services.",
+        "localContext": "Gretna is a historic city on the west bank of the Mississippi River, known for its small-town charm and proximity to New Orleans.",
+        "nearbyAreas": [
+          "Harvey",
+          "Marrero",
+          "New Orleans"
+        ]
+      },
+      {
+        "city": "Harvey",
+        "slug": "harvey-la",
+        "state": "LA",
+        "content": "Paul D Plumber extends its plumbing services to the community of Harvey, Louisiana. As a growing area on the Westbank, Harvey presents a mix of residential and commercial plumbing needs. We are well-versed in addressing the specific requirements of homes and businesses in this area.\n\nOur services in Harvey include everything from drain cleaning and water heater repair to sewer line inspection and replacement. We understand the importance of having a reliable plumbing system, and we are dedicated to providing prompt, efficient, and affordable solutions to keep your plumbing running smoothly. We offer 24/7 emergency service for those unexpected plumbing disasters.",
+        "localContext": "Harvey is a growing community on the Westbank of the Mississippi River, with a mix of residential and industrial development.",
+        "nearbyAreas": [
+          "Gretna",
+          "Marrero",
+          "Westwego"
+        ]
+      },
+      {
+        "city": "Marrero",
+        "slug": "marrero-la",
+        "state": "LA",
+        "content": "Paul D Plumber is dedicated to serving the plumbing needs of Marrero, Louisiana. Located on the Westbank of the Mississippi River, Marrero is a residential community with a diverse range of homes. We are equipped to handle any plumbing challenge, big or small.\n\nOur services in Marrero include leak detection, pipe repair, water heater installation, and more. We're committed to providing top-quality workmanship and exceptional customer service. We understand the importance of having a reliable plumber you can trust, and we strive to exceed your expectations with every service call.",
+        "localContext": "Marrero is a primarily residential community on the Westbank, known for its strong community spirit.",
+        "nearbyAreas": [
+          "Harvey",
+          "Gretna",
+          "Westwego"
+        ]
+      },
+      {
+        "city": "River Ridge",
+        "slug": "river-ridge-la",
+        "state": "LA",
+        "content": "Paul D Plumber is proud to offer plumbing services to the residents and businesses of River Ridge, Louisiana. Situated along the Mississippi River, River Ridge is a community with a unique character and a diverse range of plumbing needs. We are experienced in addressing the specific challenges of homes and businesses in this area.\n\nOur services in River Ridge include drain cleaning, sewer line repair, water heater maintenance, and more. We understand the importance of having a reliable plumbing system, and we are committed to providing prompt, efficient, and affordable solutions to keep your plumbing running smoothly. We are available 24/7 for emergency plumbing services.",
+        "localContext": "River Ridge is a suburban community along the Mississippi River, known for its beautiful homes and family-friendly atmosphere.",
+        "nearbyAreas": [
+          "Harahan",
+          "Metairie",
+          "Kenner"
+        ]
+      },
+      {
+        "city": "Harahan",
+        "slug": "harahan-la",
+        "state": "LA",
+        "content": "Paul D Plumber extends its expert plumbing services to the community of Harahan, Louisiana. As a residential area near New Orleans, Harahan presents a blend of residential plumbing needs. We are well-versed in addressing the specific requirements of homes in this area.\n\nOur services in Harahan include everything from drain cleaning and water heater repair to sewer line inspection and replacement. We understand the importance of having a reliable plumbing system, and we are dedicated to providing prompt, efficient, and affordable solutions to keep your plumbing running smoothly. We offer 24/7 emergency service for those unexpected plumbing disasters.",
+        "localContext": "Harahan is a residential community known for its excellent schools and convenient location near New Orleans.",
+        "nearbyAreas": [
+          "River Ridge",
+          "Metairie",
+          "Elmwood"
+        ]
+      },
+      {
+        "city": "Westwego",
+        "slug": "westwego-la",
+        "state": "LA",
+        "content": "Paul D Plumber is dedicated to serving the plumbing needs of Westwego, Louisiana. Located on the Westbank of the Mississippi River, Westwego is a community with a mix of residential and commercial properties. We are equipped to handle any plumbing challenge, big or small.\n\nOur services in Westwego include leak detection, pipe repair, water heater installation, and more. We're committed to providing top-quality workmanship and exceptional customer service. We understand the importance of having a reliable plumber you can trust, and we strive to exceed your expectations with every service call.",
+        "localContext": "Westwego is a community on the Westbank with a mix of residential areas and industrial businesses along the river.",
+        "nearbyAreas": [
+          "Marrero",
+          "Harvey",
+          "Bridge City"
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Marie S.",
+        "rating": 5,
+        "service": "Water Heater Replacement",
+        "text": "Paul D Plumber was fantastic! My water heater went out on a Sunday morning, and they were at my house within an hour. The plumber, David, was professional, courteous, and explained everything clearly. He replaced my old water heater with a new one, and the price was very reasonable. Highly recommend!",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "James B.",
+        "rating": 4,
+        "service": "Drain Cleaning",
+        "text": "I had a clogged kitchen sink that I couldn't clear myself. Paul D Plumber came out and quickly cleared the drain. The plumber was friendly and efficient. My only complaint is that the price was a little higher than I expected, but the service was worth it.",
+        "date": "2025-02-28"
+      },
+      {
+        "name": "Lisa G.",
+        "rating": 5,
+        "service": "Leak Detection & Repair",
+        "text": "I suspected I had a leak in my bathroom, but I couldn't find it. Paul D Plumber used their leak detection equipment to quickly locate the leak behind the wall. They repaired the leak with minimal damage to my wall, and I'm so grateful for their expertise.",
+        "date": "2025-01-10"
+      },
+      {
+        "name": "Robert K.",
+        "rating": 5,
+        "service": "Sewer Line Cleaning",
+        "text": "Our sewer line was backed up, causing major issues. Paul D Plumber came out the same day and cleared the blockage. They were professional and knowledgeable, and they explained the process clearly. Our plumbing is back to normal now, thanks to them!",
+        "date": "2024-12-20"
+      },
+      {
+        "name": "Susan L.",
+        "rating": 4,
+        "service": "Faucet Installation",
+        "text": "I needed a new faucet installed in my kitchen. Paul D Plumber did a great job. The plumber was on time, courteous, and efficient. He installed the faucet quickly and cleanly, and it looks great! I would definitely use them again.",
+        "date": "2024-11-15"
+      },
+      {
+        "name": "Michael J.",
+        "rating": 5,
+        "service": "Gas Line Repair",
+        "text": "I smelled gas in my house and called Paul D Plumber immediately. They arrived quickly and located a gas leak in my line. They repaired the leak safely and efficiently. I'm so grateful for their prompt and professional service. They potentially saved my life!",
+        "date": "2024-10-30"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Paul D Plumber | New Orleans Plumbing",
+        "description": "Reliable plumbing services in New Orleans. 24/7 emergency service, upfront pricing. Call Paul D Plumber today!"
+      },
+      "about": {
+        "title": "About Paul D Plumber | NOLA's Trusted Plumbers",
+        "description": "Learn about Paul D Plumber's commitment to quality plumbing in New Orleans. Decades of experience, local values."
+      },
+      "services": {
+        "title": "Plumbing Services | Paul D Plumber New Orleans",
+        "description": "Comprehensive plumbing services in New Orleans: Drain cleaning, water heater repair, leak detection, and more."
+      },
+      "contact": {
+        "title": "Contact Paul D Plumber | Get a Free Quote",
+        "description": "Contact Paul D Plumber for fast, reliable plumbing service in New Orleans. Get a free quote today!"
+      },
+      "reviews": {
+        "title": "Paul D Plumber Reviews | Customer Testimonials",
+        "description": "Read reviews from satisfied Paul D Plumber customers in New Orleans. See why we're the trusted choice for plumbing."
+      },
+      "service-areas": {
+        "title": "Paul D Plumber Service Areas | New Orleans",
+        "description": "Paul D Plumber provides plumbing services throughout New Orleans and surrounding areas. Check our service area map."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    }
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "drain-cleaning": "/images/service-drain-cleaning.webp",
+      "water-heater-repair": "/images/service-water-heater-repair.webp",
+      "leak-detection-repair": "/images/service-leak-detection-repair.webp",
+      "sewer-line-services": "/images/service-sewer-line-services.webp",
+      "fixture-installation": "/images/service-fixture-installation.webp",
+      "gas-line-services": "/images/service-gas-line-services.webp"
+    },
+    "servicesResponsive": {
+      "drain-cleaning": {
+        "src": "/images/service-drain-cleaning.webp",
+        "srcset": "/images/service-drain-cleaning-400w.webp 400w, /images/service-drain-cleaning-800w.webp 800w, /images/service-drain-cleaning-1200w.webp 1200w, /images/service-drain-cleaning.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "water-heater-repair": {
+        "src": "/images/service-water-heater-repair.webp",
+        "srcset": "/images/service-water-heater-repair-400w.webp 400w, /images/service-water-heater-repair-800w.webp 800w, /images/service-water-heater-repair-1200w.webp 1200w, /images/service-water-heater-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "leak-detection-repair": {
+        "src": "/images/service-leak-detection-repair.webp",
+        "srcset": "/images/service-leak-detection-repair-400w.webp 400w, /images/service-leak-detection-repair-800w.webp 800w, /images/service-leak-detection-repair-1200w.webp 1200w, /images/service-leak-detection-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "sewer-line-services": {
+        "src": "/images/service-sewer-line-services.webp",
+        "srcset": "/images/service-sewer-line-services-400w.webp 400w, /images/service-sewer-line-services-800w.webp 800w, /images/service-sewer-line-services-1200w.webp 1200w, /images/service-sewer-line-services.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "fixture-installation": {
+        "src": "/images/service-fixture-installation.webp",
+        "srcset": "/images/service-fixture-installation-400w.webp 400w, /images/service-fixture-installation-800w.webp 800w, /images/service-fixture-installation-1200w.webp 1200w, /images/service-fixture-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "gas-line-services": {
+        "src": "/images/service-gas-line-services.webp",
+        "srcset": "/images/service-gas-line-services-400w.webp 400w, /images/service-gas-line-services-800w.webp 800w, /images/service-gas-line-services-1200w.webp 1200w, /images/service-gas-line-services.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
